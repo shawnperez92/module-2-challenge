@@ -1,0 +1,149 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #111; /* Black background */
+    color: #fff; /* White text */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #333; /* Dark gray */
+    color: #fff;
+    padding-top: 20px;
+    text-align: left;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    color: #ffa500;
+}
+nav {
+   position: relative;
+   top: -50px;
+   height: 100%;
+   width: 300px;
+   padding-top: 20px;
+   float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffa500;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 30px;
+    background-color: #333; /* Dark gray */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project-img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.project-img .hover-img {
+    display: block;
+    width: 200px;
+    height: auto;
+    transition: border 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.project-img :hover.hover-img{
+    border-color: #ffa500;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffa500; /* Orange */
+}
+
+.project p {
+    color: #ccc; /* Light gray */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 20px;
+    align-items: flex-start; 
+
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #777; /* Darker gray border */
+    background-color: #444; /* Dark gray input background */
+    color: #fff; /* White text */
+}
+
+form button {
+    background-color: #ffa500; /* Orange */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #ff8500; /* Darker shade of orange */
+}

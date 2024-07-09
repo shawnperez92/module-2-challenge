@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawn P. Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Shawn Perez</h1>
+            <p>Front-end Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!----add personal image here like a avatar-->
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Shawn Perez, a passionate front-end developer with a focus on creating responsive and user-friendly websites.</p>
+            <p>I'm currently learning Full Stack coding at UT Austin Bootcamp, I'm currently employed at USAA as a Insurance Professional I</p>
+            <p>Skills: HTML, CSS, JavaScript, VS Code, and GitBash</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+             <a href="https://shawnperez92.github.io/module-1-challenge/" class="project-img"> <img src="./assets/images/horiseon.png" alt="Project 1" class="hover-img"></a>
+                <h3>HTML and CSS</h3>
+                <p>Set up the HTML semantics and made website more accessible using correct syntax</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Shawn Perez. Designed by Shawn Perez.</p>
+        </div>
+    </footer>
+</body>
+</html>
