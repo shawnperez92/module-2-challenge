@@ -36,6 +36,22 @@ header p {
     margin-bottom: 0px;
     color: #ffa500;
 }
+
+.avatar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 43vh; /* Full viewport height */
+    padding-top: 40px;
+    padding-right: 100px;
+}
+
+.avatar {
+    width: 350px; /* Adjust size as needed */
+    height: 350px; /* Maintain aspect ratio or specify separately */
+    border-radius: 50%; /* Make it circular if it's a square image */
+}
+
 nav {
    position: relative;
    top: -50px;
