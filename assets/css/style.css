@@ -1,4 +1,3 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
@@ -41,15 +40,15 @@ header p {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 43vh; /* Full viewport height */
+    height: 43vh; 
     padding-top: 40px;
     padding-right: 100px;
 }
 
 .avatar {
-    width: 350px; /* Adjust size as needed */
-    height: 350px; /* Maintain aspect ratio or specify separately */
-    border-radius: 50%; /* Make it circular if it's a square image */
+    width: 350px; 
+    height: 350px; 
+    border-radius: 50%; 
 }
 
 nav {
